@@ -37,6 +37,30 @@
 			);
 			target = C40962E12CB9C2EF00001F4D /* BMantzeyPortfolio */;
 		};
+		C46C54BB2CD0B79E00586F9D /* Exceptions for "BMantzeyPortfolio" folder in "BMantzeyPortfolioTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HelloWorld/HelloWorldInteractor.swift,
+				HelloWorld/HelloWorldModels.swift,
+				HelloWorld/HelloWorldPresenter.swift,
+				HelloWorld/HelloWorldRouter.swift,
+				HelloWorld/HelloWorldViewController.swift,
+				HelloWorld/HelloWorldWorker.swift,
+			);
+			target = C40962FA2CB9C2F000001F4D /* BMantzeyPortfolioTests */;
+		};
+		C46C54BC2CD0B79E00586F9D /* Exceptions for "BMantzeyPortfolio" folder in "BMantzeyPortfolioUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HelloWorld/HelloWorldInteractor.swift,
+				HelloWorld/HelloWorldModels.swift,
+				HelloWorld/HelloWorldPresenter.swift,
+				HelloWorld/HelloWorldRouter.swift,
+				HelloWorld/HelloWorldViewController.swift,
+				HelloWorld/HelloWorldWorker.swift,
+			);
+			target = C40963042CB9C2F000001F4D /* BMantzeyPortfolioUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +68,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C409630D2CB9C2F000001F4D /* Exceptions for "BMantzeyPortfolio" folder in "BMantzeyPortfolio" target */,
+				C46C54BB2CD0B79E00586F9D /* Exceptions for "BMantzeyPortfolio" folder in "BMantzeyPortfolioTests" target */,
+				C46C54BC2CD0B79E00586F9D /* Exceptions for "BMantzeyPortfolio" folder in "BMantzeyPortfolioUITests" target */,
 			);
 			path = BMantzeyPortfolio;
 			sourceTree = "<group>";
@@ -289,13 +315,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D77H469HEK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMantzeyPortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HelloWorld;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,13 +344,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D77H469HEK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMantzeyPortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HelloWorld;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -445,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
